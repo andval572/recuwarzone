@@ -70,8 +70,8 @@ class Hilos extends Thread {
 
         }
 
-        System.out.println("EL " +hilo.getName()+ " HA COMPLETADO LA PRUEBA 1 \n");
-        prueba2(hilo);
+            System.out.println("EL " + hilo.getName() + " HA COMPLETADO LA PRUEBA 1 \n");
+            prueba2(hilo);
 
     }
 
@@ -83,7 +83,7 @@ class Hilos extends Thread {
 
         if (Main.llegada.get() <= 10){
 
-            System.out.println("EL " +hilo.getName()+ " BIEN HECHO PASAS A LA PRUEBA 2 \n");
+            System.out.println("EL " +hilo.getName()+ " PASA A LA PRUEBA 2 \n");
             semifinales(hilo);
 
         }
